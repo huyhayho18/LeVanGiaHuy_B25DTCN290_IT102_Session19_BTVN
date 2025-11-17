@@ -40,8 +40,8 @@ void sum(int *array, int size) {
         return;
     }
 	int sum = 0, i;
-	for (i = 0; i < n; i++) {
-		sum = sum + *(arr + i);
+	for (i = 0; i < size; i++) {
+		sum = sum + *(array + i);
 	}
 	printf ("Tong cua mang la: %d",sum);
 }
@@ -101,5 +101,6 @@ int main () {
 	
 	return 0;
 }
+
 
 
