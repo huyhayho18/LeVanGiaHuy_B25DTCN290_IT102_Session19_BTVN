@@ -40,12 +40,10 @@ void sum(int *array, int size) {
         return;
     }
 	int sum = 0, i;
-	float avg;
 	for (i = 0; i < n; i++) {
 		sum = sum + *(arr + i);
 	}
-	avg = (float) sum / n;
-	printf ("Gia tri trung binh cua mang: %.2f",avg);
+	printf ("Tong cua mang la: %d",sum);
 }
 
 void maxArray(int *array, int size) {
@@ -103,4 +101,5 @@ int main () {
 	
 	return 0;
 }
+
 
